@@ -38,7 +38,6 @@ const options = {
 flatpickr(ref.picker, options);
 
 // Counter function
-
 ref.btnStart.addEventListener('click', startCounter);
 
 function startCounter() {
@@ -59,7 +58,7 @@ function startCounter() {
         'Okay'
       );
     }
-  });
+  }, 1000);
 }
 
 // Convert function
